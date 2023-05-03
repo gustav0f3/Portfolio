@@ -1,0 +1,79 @@
+#main-content{
+    color: #fff;
+    background-color: #111;
+    flex: 2 1 0 ;
+    border-radius: 10px;
+    padding: 3rem;
+}
+    
+    section{
+        margin-bottom: 2rem ;
+        display: flex;
+        flex-direction: column;
+    }
+    h2 {
+        margin-bottom: 2rem;
+        color: #fff;
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+         align-content: center;
+        justify-content: start;
+        gap: 1rem;
+    }
+
+        h2:after{
+            content: "";
+            background-image: linear-gradient(to left, #e54646 0%,#271733 35%, rgb(99, 8, 8) 90%);
+            height: 3px;
+            width: 30%;
+            background-size: 500% 100%;
+            margin-top: 20px;
+            animation: degdegrade-animado 2s infinite alternate;
+            
+        }
+        
+    p{
+        color: #a6a6a6;
+        margin-bottom: 1rem;
+        line-height: 1.6rem;
+        font-size: 1.2rem;
+    }
+
+    .btn-projects{
+        transition: 1s;
+        margin-top: 2rem;
+        padding: 1.2rem 1.2rem;
+        color: #fff;
+        background: linear-gradient(90deg, rgba(250,82,82,1) 0%, rgba(221, 36, 118, 1) 100%);
+        text-decoration: none;
+        border-radius: 3rem;
+        align-self: start;
+    }
+    .btn-projects:hover{
+        transform: scale(1.05);
+    }
+
+    .yoda{
+        
+        margin-left: .8rem;
+        top: .9rem;
+        max-width: 5%;
+        position: relative;
+        transition: 1s;
+    }
+    .yoda:hover{
+        transform: scale(1.6);
+    }
+    .projects-container h2{
+        margin-bottom: 2rem;
+    }
+            
+    .projects-container p{
+         margin-bottom: 10px;}
+
+
+
+        
+    

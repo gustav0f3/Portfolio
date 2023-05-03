@@ -1,0 +1,17 @@
+#portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem;
+    gap: 3rem;
+}
+
+h1{
+    font-weight: 700;
+    margin-top: .2rem;
+    width: 100%;
+    font-size: 6rem;   
+    margin-bottom: 4rem;
+    background:linear-gradient(90deg, rgba(250,82,82,1) 0%, rgba(221, 36, 118, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,37 @@
+#social-networks{
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 1.5rem;
+    margin: 1rem 0;
+}
+    .social-btn{
+        margin: 2rem 0;
+        padding: .6rem;
+        background-color: #1d1d1d;
+        border-radius: 5px;
+        color: #333;
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        transition: .5s;
+    }
+    .social-btn:hover{
+        transform: scale(1.2);
+        background: linear-gradient(90deg, rgba(250,82,82,1) 0%, rgba(221, 36, 118, 1) 100%);
+        }
+    .social-btn:hover svg{
+        color: #fff;
+    }
+    #linkedin{
+        color: #0072b1
+    }
+    #github{
+        color: #282727
+    }
+    #instagram{
+        color: #bc2a8d
+    }
