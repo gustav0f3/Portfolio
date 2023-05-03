@@ -16,7 +16,7 @@
     animation: typing 2.9s steps(22),  step-end infinite alternate;
     animation-iteration-count: infinite;
     border-right: 3px solid rgba(250,82,82,1) ;
-    width: 22%;
+    width: 28%;
     font-size: 6rem;
     background: linear-gradient(90deg, rgba(250,82,82,1) 0%, rgba(221, 36, 118, 1) 100%);
     background-clip:padding-box;
