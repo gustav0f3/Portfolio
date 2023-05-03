@@ -3,6 +3,7 @@ import Avatar from '../img/foto.jpeg'
 import '../styles/sidebar.css'
 import SocialNetworks from './SocialNetworks'
 import InformationContainer from './InformationContainer'
+import baixar from '../Curriculo.pdf'
 
 function Sidebar() {
   return (
@@ -13,7 +14,7 @@ function Sidebar() {
         <InformationContainer/>
 
 
-        <a href="./public/Profile.pdf" download className="btn">Download currículo</a>
+        <a href={baixar} download className="btn">Download currículo</a>
     </aside>
   )
 }
