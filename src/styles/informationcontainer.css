@@ -29,6 +29,7 @@
         margin-bottom: .5rem;
     }
     p{
+        word-break: break-all;
         color: #fff;
         font-weight: bold;
     }
