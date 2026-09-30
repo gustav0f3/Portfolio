@@ -5,9 +5,35 @@
     gap: 3rem;
     width: 100%;
     height: 100%;
+
     
 }
+@media (max-width: 768px) {
+  #id {
+    flex-direction: column; /* Organiza os elementos na vertical */
+    padding: 16px;
+    width: 100%;
+    min-height: 100vh;
+    height: auto; /* Permite que o container cresça conforme o conteúdo */
+    white-space: normal; /* Garante que não está forçado a 'nowrap' */
+    /* Centralize o texto para ficar melhor no mobile */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 
+  }
+  #id h1{
+     width: 100%;
+    font-size: 6rem;
+  }
+  #id .cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    
+  }
+} 
 .h1{
 
     font-weight: 700;
@@ -29,9 +55,12 @@
     }}
 
 .cards{
+    gap: 3rem;
+    padding: 2rem;
     width: 100%;
     display: flex;
+    flex-direction:row;
     align-items: center;
     justify-content: space-around;
-    gap: 3rem;
+
 }

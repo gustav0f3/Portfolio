@@ -5,6 +5,22 @@
     gap: 3rem;
 }
 
+@media (max-width: 768px) {
+  #portfolio {
+    flex-direction: column; /* Organiza os elementos na vertical */
+    padding: 16px;
+    word-wrap: break-word;
+    white-space: normal; /* Garante que não está forçado a 'nowrap' */
+    /* Centralize o texto para ficar melhor no mobile */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #portfolio h1{
+    font-size: 3rem;
+  }
+} 
+
 h1{
     font-weight: 700;
     margin-top: .2rem;
